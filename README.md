@@ -7,15 +7,14 @@
   <p>
     Base prettier rules used by the DIRUPT team for packages and the applications.
   </p>
-  <a href="[License]">
-    <img src="[License-Image]" alt="License" />
-  </a>
 </div>
 
 <br />
 
 <div align="center">
+
 [![license-image]][license-url]
+
 </div>
 
 ## Installation
