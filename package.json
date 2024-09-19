@@ -1,0 +1,67 @@
+{
+  "name": "@dirupt/prettier-config",
+  "description": "Dirupt's shared Prettier config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "main": "./index.json",
+  "files": [
+    "index.json"
+  ],
+  "exports": {
+    ".": "./index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirupt-agency/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dirupt-agency/prettier-config/issues"
+  },
+  "homepage": "https://github.com/dirupt-agency/prettier-config#readme",
+  "keywords": [
+    "dirupt",
+    "prettier",
+    "config"
+  ],
+  "author": {
+    "name": "Philippe DESPLATS",
+    "email": "philippe@dirupt.com",
+    "url": "https://www.dirupt.com"
+  },
+	"publishConfig": {
+		"access": "public",
+    "provenance": true
+	},
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
+    "release-it": "^17.6.0"
+  },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": true,
+      "requireUpstream": true,
+      "commitMessage": "chore(release): ${version}",
+      "tagAnnotation": "${version}",
+      "push": true,
+      "tagName": "${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": true,
+      "skipChecks": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "angular"
+        }
+      }
+    }
+  }
+}
