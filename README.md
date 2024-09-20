@@ -22,10 +22,10 @@
 Install the package from the npm registry.
 
 ```sh
-npm i -D @dirupt/prettier-config
+pnpm add -D @dirupt/prettier-config
 
 # Make sure also to install the following packages
-npm i -D prettier
+pnpm add -D prettier
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ After installation, you can copy/paste the following block of code within the `p
 ```
 
 <div align="center">
-  <sub>Built with ❤︎ by <a href="https://github.com/philippe-desplats">Philippe Desplats</a> - File based on <a href="https://github.com/adonisjs/prettier-config">AdonisJS Prettier Config</a></sub>
+  <sub>Built with ❤︎ by <a href="https://github.com/philippe-desplats">Philippe Desplats</a> - Project based on <a href="https://github.com/adonisjs/prettier-config">AdonisJS Prettier Config</a></sub>
 </div>
 
 [npm-image]: https://img.shields.io/npm/v/@dirupt/prettier-config/latest.svg?style=for-the-badge&logo=npm
